@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOr</title>
+</head>
+
+<body>
+
+
+
+
+
+
+    <script>
+        var ch = parseInt(window.prompt('\n 1)ADD \n 2)SUB \n 3)MUL  \n 4)DIV \n select any operation '));
+
+
+        if (ch == 1) {
+
+            var num1 = parseInt(window.prompt('Enter first number:-'));
+            var num2 = parseInt(window.prompt('Enter Second number:-'));
+            var c = num1 + num2
+            alert("Addition of two numbers:-" + c);
+        }
+
+
+        else if (ch == 2) {
+
+            var num1 = parseInt(window.prompt('Enter first number:-'));
+            var num2 = parseInt(window.prompt('Enter Second number:-'));
+
+            alert("Subtraction of two numbers:-" + num1 - num2);
+        }
+
+
+        else if (ch == 3) {
+
+            var num1 = parseInt(window.prompt('Enter first number:-'));
+            var num2 = parseInt(window.prompt('Enter Second number:-'));
+
+            alert("Multiplication of two numbers:-" + num1 * num2);
+        }
+
+
+        else if (ch == 4) {
+
+            var num1 = parseInt(window.prompt('Enter first number:-'));
+            var num2 = parseInt(window.prompt('Enter Second number:-'));
+
+            alert("Division of two numbers:-" + num1 / num2);
+        }
+        else {
+            alert('The number is invalid');
+        }
+
+
+    </script>
+</body>
+
+</html>
